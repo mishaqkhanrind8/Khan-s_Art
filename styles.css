@@ -8,10 +8,13 @@
 
 html {
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  font-size: clamp(13px, 1rem + 1vw, 16px);
+  width: min(1399px, 100%);
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-size: clamp(13px, 1.2vw, 16px);
   height: 100vh;
   width: min(1399px, 100%);
   word-wrap: break-word;
