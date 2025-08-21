@@ -93,7 +93,7 @@ figcaption {
 }
 
 form {
-  padding: 1.5rem;
+  padding: 10px auto 1.5rem;
 }
 
 fieldset {
