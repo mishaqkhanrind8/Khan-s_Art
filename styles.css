@@ -192,4 +192,12 @@ footer p a:hover{
   div.flex-container {
     flex-direction: column;
   }
+#contact h2 {
+  color: #e91e63 !important;
+  text-align: center;
+  line-height: 1.5;
+  margin: 20px auto;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
 }
