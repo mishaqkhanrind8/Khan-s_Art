@@ -15,23 +15,16 @@ body {
   height: 100vh;
   width: min(1399px, 100%);
   word-wrap: break-word;
+  line-height: 1.5;
   letter-spacing: 0.5px;
   word-spacing: 2px;
 }
 /* Navigation CSS */
-header {
-    position: relative;
-    height: 3rem;
-}
 
-nav.navbar {
-  position: fixed;
-  width: min(1399px, 100%);
-  top: 0;
-  left: 0;
-  padding: 10px 1rem;
+header {
+  padding: 1rem;
 }
-div.grid-container-space-between {
+nav.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -42,7 +35,7 @@ div.grid-container-space-between {
 a.nav-link {
   display: block;
   text-decoration: none;
-  padding: 24px 32px;
+  padding: 8px 16px;
   font-size: 22px;
   color: #000;
 }
@@ -51,6 +44,46 @@ a.nav-link:hover {
   background-color: #ccc;
 }
 
-main {
-margin-top: 2.5rem;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-container div img {
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  display: block;
+}
+
+div.container {
+  width: min(800px, 100%);
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 2.5rem 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+figure img {
+  width: min(300px, 100%);
+  display: block;
+  margin: 0 auto 2.5rem;
+  line-height: 1.5;
+}
+
+figcaption {
+  display: none;
+}
+
+#about p {
+  padding: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  div.flex-container {
+    flex-direction: column;
+  }
 }
