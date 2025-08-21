@@ -1,0 +1,34 @@
+/* Reset By Default Properties */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+body {
+  font-size: clamp(13px, 1.2vw, 16px);
+  height: 100vh;
+  width: min(1399px, 100%);
+  word-wrap: break-word;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+/* Navigation CSS */
+header {
+    position: relative;
+}
+
+nav.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+    margin-top: 50px;
+}
