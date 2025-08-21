@@ -21,14 +21,36 @@ body {
 /* Navigation CSS */
 header {
     position: relative;
+    height: 3rem;
 }
 
 nav.navbar {
   position: fixed;
+  width: min(1399px, 100%);
   top: 0;
   left: 0;
+  padding: 10px 1rem;
+}
+div.grid-container-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  }
+
+a.nav-link {
+  display: block;
+  text-decoration: none;
+  padding: 24px 32px;
+  font-size: 22px;
+  color: #000;
+}
+
+a.nav-link:hover {
+  background-color: #ccc;
 }
 
 main {
-    margin-top: 50px;
+margin-top: 2.5rem;
 }
