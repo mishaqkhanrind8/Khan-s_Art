@@ -53,13 +53,13 @@
   <!-- Gallery Section -->
   <div class="flex-container" id="gallery">
     <div>
-      <img src="./assets/bird-on-flower-art.jpg" alt="Abstract artwork 1">
-      <img src="./assets/fish-art.jpg" alt="Abstract artwork 2">
-      <img src="./assets/megecian-art.jpg" alt="Abstract artwork 3">
+      <img src="./assets/bird-on-flower-art.jpg" loading="lazy" alt="Abstract artwork 1">
+      <img src="./assets/fish-art.jpg" loading="lazy" alt="Abstract artwork 2">
+      <img src="./assets/megecian-art.jpg" loading="lazy" alt="Abstract artwork 3">
     </div>
     <div>
-      <img src="./assets/cat-with-band-art sec-2.jpg" alt="Abstract artwork 4">
-      <img src="./assets/intrview-art- sec-2.jpg" alt="Abstract artwork 5">
+      <img src="./assets/cat-with-band-art sec-2.jpg" loading="lazy" alt="Abstract artwork 4">
+      <img src="./assets/intrview-art- sec-2.jpg" loading="lazy" alt="Abstract artwork 5">
     </div>
   </div>
 
@@ -68,7 +68,7 @@
   <div id="about">
     <h1>About</h1>
     <figure>
-      <img src="./assets/ali-khan.jpeg" alt="Profile picture of artist">
+      <img src="./assets/ali-khan.jpeg" loading="lazy" alt="Profile picture of artist">
       <figcaption>Artist: Ali Khan</figcaption>
     </figure>
     <p>
@@ -83,7 +83,8 @@
   <!-- Contact Section -->
   <div id="contact">
     <h2>Do not hesitate to contact me!</h2>
-    <form action="" method="post">
+    <form action="" method="post" id="myForm">
+      <fieldset>
       <label for="name">Name</label>
       <input type="text" id="name" name="name" placeholder="Ali Khan" required />
 
@@ -92,9 +93,11 @@
 
       <label for="message">Message</label>
       <textarea name="message" id="message" rows="5" placeholder="Write your message here..."></textarea>
-
+</fieldset>
       <input type="submit" value="Submit" />
+      <div id="toast" class="toast">Your form has been submitted successfully</div>
     </form>
+    
   </div>
   </div>
 </main>
@@ -102,11 +105,11 @@
 <footer>
   <p>
     Powered by <em>
-      <a href="">Muhammad Ishaq's Code <span>(Front-end)</span></a>
+      <a href="https://www.fiverr.com/ishaqkhanrind78/">Muhammad Ishaq's Code <span>(Front-end)</span></a>
     </em>
   </p>
 </footer>
-
+<script src="scirpt.js"></script>
 </body>
 
 </html>

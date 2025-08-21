@@ -55,7 +55,7 @@ a.nav-link:hover {
 }
 
 div.container {
-  width: min(800px, 100%);
+  width: min(600px, 100%);
   margin: auto;
 }
 
@@ -78,9 +78,112 @@ figcaption {
 }
 
 #about p {
-  padding: 1rem;
+  padding: 1rem 1.5rem 0;
 }
 
+#contact h2 {
+  color: #e91e63 !important;
+  text-align: center;
+  line-height: 1.5;
+  margin: 20px auto;
+  font-weight: 400;
+}
+
+form {
+  padding: 1.5rem;
+}
+
+fieldset {
+  border: none;
+}
+
+form label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+input[type="text"] {
+  display: block;
+  outline: none;
+  width: 100%;
+  padding: 12px;
+  color: gray;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"]:focus {
+  border: 2px solid lightblue;
+  color: #000;
+}
+
+input[type="email"] {
+  display: block;
+  outline: none;
+  width: 100%;
+  padding: 12px;
+  color: gray;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+input[type="email"]:focus {
+  border: 2px solid lightblue;
+  color: #000;
+}
+
+textarea {
+ outline: none;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+textarea:focus {
+  border: 2px solid lightblue;
+}
+
+input[type="submit"] {
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-top: 14px;
+  padding: 1rem;
+  background-color: #444;
+  color: #fff;
+}
+
+input[type="submit"]:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.toast {
+    color: seagreen;
+    border-radius: 8px;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1000;
+  }
+
+.toast.show {
+    opacity: 1;
+  }
+
+footer {
+  padding: 1rem 1rem 3.5rem;
+  text-align: center;
+}
+
+footer p a {
+  color: #000;
+}
+footer p a:hover{
+  color: seagreen;
+  text-decoration-color: seagreen;
+}
 
 @media only screen and (max-width: 600px) {
   div.flex-container {
