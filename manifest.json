@@ -6,8 +6,8 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#fff",
-  "theme_color": "#fff",
+  "background_color": "#orangered",
+  "theme_color": "#orangered",
   "icons": [
     {
       "src": "./assets/android-chrome-192x192.png/",
