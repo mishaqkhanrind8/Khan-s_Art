@@ -1,3 +1,10 @@
+   if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js', { scope: './' })
+        .then(reg => console.log('SW registered:', reg.scope))
+        .catch(err => console.error('SW failed:', err));
+    }
+
+
   const form = document.getElementById("myForm");
   const toast = document.getElementById("toast");
 
