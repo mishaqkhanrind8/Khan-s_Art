@@ -6,8 +6,8 @@
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f3e8d8",
-  "theme_color": "#000",
+  "background_color": "#F0E0CD",
+  "theme_color": "#F0E0CD",
   "icons": [
     {
       "src": "https://khansart.netlify.app/assets/android-chrome-192x192.png",
