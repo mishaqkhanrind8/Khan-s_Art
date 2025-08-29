@@ -2,7 +2,7 @@
   package = "netlify-plugin-image-optim"
 
 [build]
-  publish = "PUBLIC_DIRECTORY"  #build output
+  publish = "dist"   # ← اپنا build output فولڈر
 
 [[redirects]]
   from = "/images/full/:file"
@@ -15,5 +15,4 @@
   status = 200
 
 [images]
-  # اگر آپ remote images optimize کرنا چاہتے ہیں:
-  remote_images = ["https://my-images.com/.*"]
+  remote_images = ["https://my-images.com/.*"]  # optional: اگر آپ باہر کے URLs optimize کرنا چاہتے ہیں
