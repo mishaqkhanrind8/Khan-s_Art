@@ -1,12 +1,12 @@
 // Service Worker file
 const CACHE_NAME = 'ppl-cache-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/script.js',
-  '/assets/android-chrome-192x192.png',
-  '/assets/android-chrome-512x512.png'
+  './',
+  './index.html',
+  './styles.css',
+  './script.js',
+  './assets/android-chrome-192x192.png',
+  './assets/android-chrome-512x512.png'
 ];
 
 // Install
