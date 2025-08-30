@@ -73,7 +73,8 @@ figure img {
   width: min(300px, 100%);
   display: block;
   margin: 0 auto 2.5rem;
-  line-height: 1.5;
+  height: auto;
+  object-fit: cover;
 }
 
 figcaption {
@@ -85,7 +86,7 @@ figcaption {
 }
 
 #contact h2 {
-  color: #e91e63 !important;
+  color: #222 !important;
   text-align: center;
   line-height: 1.5;
   margin: 20px auto;
@@ -127,7 +128,7 @@ input[type="email"] {
   outline: none;
   width: 100%;
   padding: 12px;
-  color: gray;
+  color: #222;
   border: 1px solid rgba(0, 0, 0, 0.4);
 }
 
