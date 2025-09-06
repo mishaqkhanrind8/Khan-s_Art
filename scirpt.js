@@ -5,6 +5,14 @@
     }
 
 
+window.addEventListener("orientationchange", function() {
+  if (window.orientation === 0 || window.orientation === 180) {
+    console.log("Portrait mode");
+  } else {
+    console.log("Landscape mode");
+  }
+});
+
   const form = document.getElementById("myForm");
   const toast = document.getElementById("toast");
 
